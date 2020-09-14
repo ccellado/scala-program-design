@@ -1,0 +1,7 @@
+#+TITLE: Readme
+
+* If you're auditing\enrolled to this course do not copy the solutions! Do it yourself, it's fun. Good luck.
+
+* Comments:
+
+Rather fun course, too short in my opinion and underpolished within the Coursera environment.

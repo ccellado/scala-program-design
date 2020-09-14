@@ -1,0 +1,5 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/taika/documents/scala/coursera/scala-design/week5/calculator/src/main/scala/calculator/Calculator.scala:26:27: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: Divide(_, _), Minus(_, _), Plus(_, _), Times(_, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m          references(name)() match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

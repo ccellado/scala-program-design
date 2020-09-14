@@ -1,0 +1,4 @@
+[debug] [streams_1] Classpath dependencies List()
+[debug] [streams_1] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'streams_1' to '/home/taika/documents/scala/coursera/scala-design/week2/streams_1/.bloop/streams_1.json'
+[success] Generated .bloop/streams_1.json

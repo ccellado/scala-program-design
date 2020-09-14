@@ -1,0 +1,206 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "webUI-test",
+        "directory": "/home/taika/documents/scala/coursera/scala-design/week5/calculator/web-ui",
+        "workspaceDir": "/home/taika/documents/scala/coursera/scala-design/week5/calculator",
+        "sources": [
+            "/home/taika/documents/scala/coursera/scala-design/week5/calculator/web-ui/src/test/scala-2.13",
+            "/home/taika/documents/scala/coursera/scala-design/week5/calculator/web-ui/src/test/scala",
+            "/home/taika/documents/scala/coursera/scala-design/week5/calculator/web-ui/src/test/java",
+            "/home/taika/documents/scala/coursera/scala-design/week5/calculator/web-ui/target/scala-2.13/src_managed/test"
+        ],
+        "dependencies": [
+            "webUI"
+        ],
+        "classpath": [
+            "/home/taika/documents/scala/coursera/scala-design/week5/calculator/.bloop/webUI/scala-2.13/classes",
+            "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.13/0.6.28/scalajs-library_2.13-0.6.28.jar",
+            "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
+            "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.13/0.6.28/scalajs-test-interface_2.13-0.6.28.jar",
+            "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.13/0.9.7/scalajs-dom_sjs0.6_2.13-0.9.7.jar"
+        ],
+        "out": "/home/taika/documents/scala/coursera/scala-design/week5/calculator/.bloop/webUI",
+        "classesDir": "/home/taika/documents/scala/coursera/scala-design/week5/calculator/.bloop/webUI/scala-2.13/test-classes",
+        "resources": [
+            "/home/taika/documents/scala/coursera/scala-design/week5/calculator/web-ui/src/test/resources",
+            "/home/taika/documents/scala/coursera/scala-design/week5/calculator/web-ui/target/scala-2.13/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.1",
+            "options": [
+                "-Xplugin:/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.1/0.6.28/scalajs-compiler_2.13.1-0.6.28.jar"
+            ],
+            "jars": [
+                "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1.jar",
+                "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar",
+                "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
+                "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar",
+                "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar"
+            ],
+            "analysis": "/home/taika/documents/scala/coursera/scala-design/week5/calculator/web-ui/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "js",
+            "config": {
+                "version": "0.6.28",
+                "mode": "debug",
+                "kind": "none",
+                "emitSourceMaps": false,
+                "jsdom": false,
+                "toolchain": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-js",
+                    "name": "scalajs-library_2.13",
+                    "version": "0.6.28",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalajs-library_2.13",
+                            "path": "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.13/0.6.28/scalajs-library_2.13-0.6.28.jar"
+                        },
+                        {
+                            "name": "scalajs-library_2.13",
+                            "classifier": "sources",
+                            "path": "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.13/0.6.28/scalajs-library_2.13-0.6.28-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-js",
+                    "name": "scalajs-test-interface_2.13",
+                    "version": "0.6.28",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalajs-test-interface_2.13",
+                            "path": "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.13/0.6.28/scalajs-test-interface_2.13-0.6.28.jar"
+                        },
+                        {
+                            "name": "scalajs-test-interface_2.13",
+                            "classifier": "sources",
+                            "path": "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.13/0.6.28/scalajs-test-interface_2.13-0.6.28-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-js",
+                    "name": "scalajs-dom_sjs0.6_2.13",
+                    "version": "0.9.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalajs-dom_sjs0.6_2.13",
+                            "path": "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.13/0.9.7/scalajs-dom_sjs0.6_2.13-0.9.7.jar"
+                        },
+                        {
+                            "name": "scalajs-dom_sjs0.6_2.13",
+                            "classifier": "sources",
+                            "path": "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.13/0.9.7/scalajs-dom_sjs0.6_2.13-0.9.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.1",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}

@@ -1,0 +1,205 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "quickcheck",
+        "directory": "/home/taika/documents/scala/coursera/scala-design/week1/quickcheck",
+        "workspaceDir": "/home/taika/documents/scala/coursera/scala-design/week1/quickcheck",
+        "sources": [
+            "/home/taika/documents/scala/coursera/scala-design/week1/quickcheck/src/main/scala-2.13",
+            "/home/taika/documents/scala/coursera/scala-design/week1/quickcheck/src/main/scala",
+            "/home/taika/documents/scala/coursera/scala-design/week1/quickcheck/src/main/java",
+            "/home/taika/documents/scala/coursera/scala-design/week1/quickcheck/target/scala-2.13/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalacheck/scalacheck_2.13/1.14.0/scalacheck_2.13-1.14.0.jar",
+            "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.jar",
+            "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"
+        ],
+        "out": "/home/taika/documents/scala/coursera/scala-design/week1/quickcheck/.bloop/quickcheck",
+        "classesDir": "/home/taika/documents/scala/coursera/scala-design/week1/quickcheck/.bloop/quickcheck/scala-2.13/classes",
+        "resources": [
+            "/home/taika/documents/scala/coursera/scala-design/week1/quickcheck/src/main/resources",
+            "/home/taika/documents/scala/coursera/scala-design/week1/quickcheck/target/scala-2.13/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.0",
+            "options": [
+                "-language:implicitConversions",
+                "-deprecation"
+            ],
+            "jars": [
+                "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/scala-reflect-2.13.0.jar",
+                "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.jar",
+                "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/scala-compiler-2.13.0.jar",
+                "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.jar",
+                "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/scala-compiler-2.13.0.jar",
+                "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar"
+            ],
+            "analysis": "/home/taika/documents/scala/coursera/scala-design/week1/quickcheck/target/streams/compile/bloopAnalysisOut/$global/streams/inc_compile_2.13.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/nix/store/hpj4zrba2nh13f7i2mxd6k68ga7nnmp6-openjdk-11.0.8+10/lib/openjdk",
+                "options": [
+                    "-Duser.dir=/home/taika/documents/scala/coursera/scala-design/week1/quickcheck"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scalacheck",
+                    "name": "scalacheck_2.13",
+                    "version": "1.14.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalacheck_2.13",
+                            "path": "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalacheck/scalacheck_2.13/1.14.0/scalacheck_2.13-1.14.0.jar"
+                        },
+                        {
+                            "name": "scalacheck_2.13",
+                            "classifier": "sources",
+                            "path": "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalacheck/scalacheck_2.13/1.14.0/scalacheck_2.13-1.14.0-sources.jar"
+                        },
+                        {
+                            "name": "scalacheck_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalacheck/scalacheck_2.13/1.14.0/scalacheck_2.13-1.14.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-sbt",
+                    "name": "test-interface",
+                    "version": "1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "test-interface",
+                            "path": "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"
+                        },
+                        {
+                            "name": "test-interface",
+                            "classifier": "sources",
+                            "path": "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"
+                        },
+                        {
+                            "name": "test-interface",
+                            "classifier": "javadoc",
+                            "path": "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0-sources.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "javadoc",
+                            "path": "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.0",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0-sources.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "javadoc",
+                            "path": "/home/taika/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0-javadoc.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
